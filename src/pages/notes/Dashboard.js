@@ -42,7 +42,7 @@ function Dashboard() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold py-4">Account</h1>
+      <h1 class="text-2xl font-bold py-4">Account</h1>
       <p>User Email: {user && user.email}</p>
       <button onClick={handleLogout}>Logout</button>
       <table class="table">
