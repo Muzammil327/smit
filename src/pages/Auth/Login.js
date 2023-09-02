@@ -38,7 +38,7 @@ function Register() {
   };
 
   return (
-    <form>
+    <div className="form">
       <h1>Login</h1>
       <fieldset>
         <label htmlFor="email">Email:</label>
@@ -58,7 +58,7 @@ function Register() {
       </fieldset>
       {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
       <button class="btn" onClick={handleLogin}>Log In</button>
-    </form>
+    </div>
   );
 }
 
