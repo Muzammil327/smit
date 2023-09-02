@@ -61,7 +61,7 @@ function Dashboard() {
               <td data-label="Age">{data.age}</td>
               <td data-label="Marks%">{data.description}</td>
               <td data-label="Marks%" class="d">
-                <Link to={`/update/${data.id}`}>Update</Link>
+                <Link to={`/notes/update/${data.id}`}>Update</Link>
                 <button
                   onClick={() => {
                     handleDelete(data.id);
@@ -74,7 +74,7 @@ function Dashboard() {
           ))}
         </tbody>
       </table>
-      <Link to={`/add`} class="btn">
+      <Link to={`/notes/add`} class="btn">
         Add
       </Link>
     </>
