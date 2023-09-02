@@ -59,8 +59,8 @@ function Dashboard() {
               <td data-label="S.No">{data.id}</td>
               <td data-label="Name">{data.name}</td>
               <td data-label="Age">{data.age}</td>
-              <td data-label="Marks%">{data.description}</td>
-              <td data-label="Marks%" class="d">
+              <td data-label="Description">{data.description}</td>
+              <td data-label="Action" class="d">
                 <Link to={`/notes/update/${data.id}`}>Update</Link>
                 <button
                   onClick={() => {
